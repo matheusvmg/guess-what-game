@@ -63,10 +63,6 @@ body {
   justify-content: space-between;
   position: relative;
   transition: 0.6s;
-
-  &:hover{
-    transform: scale(1.1);
-  }
 }
 
 .answer {
@@ -109,40 +105,48 @@ body {
   height: 30px;
 }
 
-@media (max-width: 768px){
-  .card{
+@media (min-width: 900px) {
+  .card {
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
     width: 70vw;
   }
 
-  .btn-send{
+  .btn-send {
     right: 65px;
   }
 }
 
-@media (max-width: 600px){
-  .card{
+@media (max-width: 600px) {
+  .card {
     width: 90vw;
   }
 }
 
-@media (max-width: 425px){
-  .wrapper{
+@media (max-width: 425px) {
+  .wrapper {
     flex-direction: column;
     align-items: center;
   }
 
-  .words{
+  .words {
     width: 80vw;
     margin: 5px 0px 30px 0px;
   }
 
-  .cards{
+  .cards {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .card{
+  .card {
     width: 90vw;
     font-size: 10px;
   }
@@ -152,25 +156,23 @@ body {
   }
 }
 
-@media (max-width: 375px){
-
-  .description{
+@media (max-width: 375px) {
+  .description {
     padding-bottom: 0px;
   }
 
-  .card{
+  .card {
     font-size: 8px;
   }
 }
 
-@media (max-width: 325px){
-
-  .btn-send{
+@media (max-width: 325px) {
+  .btn-send {
     height: 25px;
     width: 25px;
   }
 
-  .send{
+  .send {
     height: 25px;
     width: 25px;
   }

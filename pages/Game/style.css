@@ -76,11 +76,6 @@ body {
   transition: 0.6s;
 }
 
-.card:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .answer {
   outline: 0 none;
   border-radius: 20px;
@@ -122,6 +117,13 @@ body {
 .send {
   width: 30px;
   height: 30px;
+}
+
+@media (min-width: 900px) {
+  .card:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
 }
 
 @media (max-width: 768px) {
