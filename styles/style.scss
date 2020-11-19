@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+$backgound-color-default: #f8f9fa;
+$background-color-secondary: #ffbe0b;
+$color1: #000000;
+$color2: #4d4d4d;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.container {
+  background-color: $backgound-color-default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+#img-principal {
+  width: 80vw;
+}
+
+#description {
+  color: $color2;
+  width: 55vw;
+  font-size: 18px;
+  transform: translateX(25%);
+}
+
+#link {
+  text-decoration: none;
+  color: $color1;
+  background-color: $background-color-secondary;
+  font-size: 18px;
+  border-radius: 20px;
+  height: 10vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid $color1;
+  margin: 30px 0px;
+}
+
+@media (min-width: 768px) {
+  #link {
+    width: 65vw;
+  }
+
+  #title {
+    font-size: 64px;
+  }
+
+  #description {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    justify-content: space-between;
+  }
+
+  #title {
+    align-self: flex-start;
+    margin-left: 122px;
+    font-size: 48px;
+  }
+
+  #img-principal {
+    width: 37vw;
+    margin-right: 50px;
+  }
+
+  #description {
+    align-self: flex-start;
+    font-size: 24px;
+    width: 31.25vw;
+    margin: 0;
+    padding-top: 120px;
+    padding-left: 30px;
+  }
+
+  #link {
+    width: 30.67vw;
+    align-self: flex-start;
+    margin-left: 122px;
+    margin-top: 0;
+
+    transition: transform 0.6s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .container{
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 1378px) {
+  #title {
+    margin-left: 162px;
+  }
+
+  #description{
+    padding-left: 50px;
+  }
+
+  #link {
+    transition: transform 0.6s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

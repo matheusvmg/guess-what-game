@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.container {
+  background-color: #f8f9fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#title {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+#img-principal {
+  width: 80vw;
+}
+
+#description {
+  color: #4d4d4d;
+  width: 55vw;
+  font-size: 18px;
+  -webkit-transform: translateX(25%);
+          transform: translateX(25%);
+}
+
+#link {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffbe0b;
+  font-size: 18px;
+  border-radius: 20px;
+  height: 10vh;
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 3px solid #000000;
+  margin: 30px 0px;
+}
+
+@media (min-width: 768px) {
+  #link {
+    width: 65vw;
+  }
+  #title {
+    font-size: 64px;
+  }
+  #description {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    width: 100vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #title {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 122px;
+    font-size: 48px;
+  }
+  #img-principal {
+    width: 37vw;
+    margin-right: 50px;
+  }
+  #description {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-size: 24px;
+    width: 31.25vw;
+    margin: 0;
+    padding-top: 120px;
+    padding-left: 30px;
+  }
+  #link {
+    width: 30.67vw;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 122px;
+    margin-top: 0;
+    -webkit-transition: -webkit-transform 0.6s;
+    transition: -webkit-transform 0.6s;
+    transition: transform 0.6s;
+    transition: transform 0.6s, -webkit-transform 0.6s;
+  }
+  #link:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .container {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 1378px) {
+  #title {
+    margin-left: 162px;
+  }
+  #description {
+    padding-left: 50px;
+  }
+  #link {
+    -webkit-transition: -webkit-transform 0.6s;
+    transition: -webkit-transform 0.6s;
+    transition: transform 0.6s;
+    transition: transform 0.6s, -webkit-transform 0.6s;
+  }
+  #link:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+/*# sourceMappingURL=style.css.map */
