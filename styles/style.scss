@@ -28,7 +28,7 @@ body {
 
 #title {
   font-size: 36px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 #img-principal {
@@ -40,6 +40,7 @@ body {
   width: 55vw;
   font-size: 18px;
   transform: translateX(25%);
+  margin-top: 10px;
 }
 
 #link {
@@ -54,7 +55,7 @@ body {
   align-items: center;
   justify-content: center;
   border: 3px solid $color1;
-  margin: 40px 0px;
+  margin: 50px 0px;
 }
 
 @media (min-width: 768px) {
@@ -104,6 +105,7 @@ body {
     align-self: flex-start;
     margin-left: 122px;
     margin-top: 0;
+    height: 10vh;
 
     transition: transform 0.6s;
 
@@ -129,6 +131,7 @@ body {
 
   #link {
     transition: transform 0.6s;
+    height: 10vh;
 
     &:hover {
       transform: scale(1.1);
