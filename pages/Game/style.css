@@ -133,6 +133,12 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .card {
+    width: 90vw;
+  }
+}
+
 @media (max-width: 425px) {
   .wrapper {
     -webkit-box-orient: vertical;

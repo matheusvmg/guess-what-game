@@ -119,6 +119,12 @@ body {
   }
 }
 
+@media (max-width: 600px){
+  .card{
+    width: 90vw;
+  }
+}
+
 @media (max-width: 425px){
   .wrapper{
     flex-direction: column;
