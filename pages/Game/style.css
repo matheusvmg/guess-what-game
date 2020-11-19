@@ -12,4 +12,179 @@ body {
   max-width: 100%;
   font-family: "Luckiest Guy", cursive;
 }
+
+.container {
+  background-color: #ffbe0b;
+  height: 100%;
+}
+
+#title {
+  padding: 30px 50px;
+  font-size: 40px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.words {
+  width: 45vw;
+  height: 20vh;
+  border-radius: 20px;
+  background-color: #f5f3f4;
+  margin: 20px 50px 10px 0px;
+  border: 3px solid #000000;
+  font-size: 12px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow-y: hidden;
+}
+
+.card {
+  width: 30vw;
+  height: 27vh;
+  border-radius: 20px;
+  background-color: #f5f3f4;
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.answer {
+  outline: 0 none;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 3px solid #000000;
+  margin-bottom: 15px;
+  width: 80%;
+  height: 30px;
+  font-size: 16px;
+  font-family: "Luckiest Guy", cursive;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.description {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.btn-send {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+  outline: 0 none;
+  position: absolute;
+  bottom: 15px;
+  right: 50px;
+}
+
+.btn-send:hover {
+  cursor: pointer;
+}
+
+.send {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 70vw;
+  }
+  .btn-send {
+    right: 65px;
+  }
+}
+
+@media (max-width: 425px) {
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .words {
+    width: 80vw;
+    margin: 5px 0px 30px 0px;
+  }
+  .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card {
+    width: 80vw;
+    font-size: 10px;
+  }
+  .btn-send {
+    right: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .description {
+    padding-bottom: 0px;
+  }
+  .card {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 325px) {
+  .btn-send {
+    height: 25px;
+    width: 25px;
+  }
+  .send {
+    height: 25px;
+    width: 25px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

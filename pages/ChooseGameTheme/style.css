@@ -12,4 +12,9 @@ body {
   max-width: 100%;
   font-family: "Luckiest Guy", cursive;
 }
+
+.container {
+  background-color: #ffbe0b;
+  height: 100vh;
+}
 /*# sourceMappingURL=style.css.map */
