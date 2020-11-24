@@ -1,7 +1,20 @@
 //get the cards
-const cards = document.querySelectorAll('.cards')
+const card = document.querySelectorAll('.card');
 
-//when click in the card goes to the game page
-cards.forEach(card => card.addEventListener('click', () =>{
-    window.location.href = '../Game/game.html';
-}));
+//set the word list
+const fruits = ['apple', 'watermelon', 'orange', 'pear', 'cherry', 'strawberry', 'nectarine', 'grape', 'mango'];
+const animals = ['dog', 'cat', 'cow', 'sheep', 'rabbit', 'duck', 'horse', 'pig', 'chicken'];
+const colors = ['black', 'white', 'green', 'blue', 'red', 'pink', 'orange', 'brown', 'gray '];
+
+//get the value of the inputs
+function getInputValues(value){
+    card.forEach(c => {
+        if(c.getAttribute('data-value') === value){
+            console.log('match');
+            return;
+        }else{
+            console.log('does not match');
+            return;
+        };
+    });
+};
