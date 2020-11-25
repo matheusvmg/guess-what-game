@@ -11,6 +11,7 @@ body {
   overflow-x: hidden;
   max-width: 100%;
   font-family: "Luckiest Guy", cursive;
+  resize: none;
 }
 
 .container {
