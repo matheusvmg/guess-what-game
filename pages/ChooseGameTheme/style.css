@@ -96,7 +96,7 @@ body {
 }
 
 .card:nth-child(2) {
-  background-image: url("../../img/fruits2.svg");
+  background-image: url("../../img/fruits2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -104,7 +104,7 @@ body {
 }
 
 .card:nth-child(4) {
-  background-image: url("../../img/animals.svg");
+  background-image: url("../../img/animals.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -112,7 +112,7 @@ body {
 }
 
 .card:nth-child(6) {
-  background-image: url("../../img/colors.svg");
+  background-image: url("../../img/colors.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
