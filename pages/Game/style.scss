@@ -19,7 +19,6 @@ body {
   overflow-x: hidden;
   max-width: 100%;
   font-family: "Luckiest Guy", cursive;
-  resize: none;
 }
 
 .container {
@@ -40,7 +39,7 @@ body {
 
 .words {
   width: 45vw;
-  height: 20vh;
+  min-height: 20vh;
   border-radius: 20px;
   background-color: $color3;
   margin: 20px 50px 10px 0px;
@@ -57,7 +56,7 @@ body {
 
 .card {
   width: 30vw;
-  height: 27vh;
+  min-height: 27vh;
   border-radius: 20px;
   background-color: $color3;
   margin: 15px;
