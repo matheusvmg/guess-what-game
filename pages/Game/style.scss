@@ -45,6 +45,12 @@ body {
   margin: 20px 50px 10px 0px;
   border: 3px solid $color1;
   font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+
+  p{
+    padding: 12px;
+  }
 }
 
 .cards {
@@ -75,7 +81,7 @@ body {
   margin-bottom: 15px;
   width: 80%;
   height: 30px;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Luckiest Guy", cursive;
   align-self: center;
 }
