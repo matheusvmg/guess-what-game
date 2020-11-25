@@ -96,7 +96,7 @@ body {
 }
 
 .card:nth-child(2) {
-  background-image: url("../../img/fruits2.png");
+  background-image: url("../../img/test.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -124,6 +124,7 @@ body {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
     cursor: pointer;
+    opacity: 1;
   }
 }
 
