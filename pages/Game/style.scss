@@ -157,11 +157,37 @@ body {
   .btn-send {
     right: 65px;
   }
+
+  .success{
+    width: 70vw;
+    border-radius: 20px;
+    background-color: $color3;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: 0.6s;
+    border: 3px solid $color5;
+  }
 }
 
 @media (max-width: 600px) {
   .card {
     width: 90vw;
+  }
+
+  .success{
+    width: 90vw;
+    border-radius: 20px;
+    background-color: $color3;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: 0.6s;
+    border: 3px solid $color5;
   }
 }
 
@@ -189,6 +215,19 @@ body {
 
   .btn-send {
     right: 40px;
+  }
+
+  .success{
+    width: 90vw;
+    border-radius: 20px;
+    background-color: $color3;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: 0.6s;
+    border: 3px solid $color5;
   }
 }
 
