@@ -150,6 +150,10 @@ body {
   border: 3px solid #8ac926;
 }
 
+.success .answer {
+  pointer-events: none;
+}
+
 .error {
   width: 30vw;
   height: 27vh;
