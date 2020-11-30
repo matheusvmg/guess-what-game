@@ -127,7 +127,15 @@ body {
   border: 3px solid $color5;
 
   .answer{
-    pointer-events: none;
+    display: none;
+  }
+
+  .btn-send{
+    display: none;
+  }
+
+  .checked{
+    text-decoration: line-through;
   }
 }
 

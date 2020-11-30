@@ -151,7 +151,15 @@ body {
 }
 
 .success .answer {
-  pointer-events: none;
+  display: none;
+}
+
+.success .btn-send {
+  display: none;
+}
+
+.success .checked {
+  text-decoration: line-through;
 }
 
 .error {
